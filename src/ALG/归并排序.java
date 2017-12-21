@@ -7,53 +7,68 @@ public class 归并排序 {
 
     public static void main(String[] args) {
 
-        int[] arrats = {50,10,90,30,70,40,80};
-        sm = arrats.length / 2;
-        mergeSort(arrats,arrats,0,arrats.length-1);
+        int[] arrats = new int[]{50,10,90,30,70,40,80};
+        System.out.println(arrats);
+
+
 
     }
 
-    public static void mergeSort(int[] sr,int[] tr1,int s,int t){
-        int m ;
-        int[] tr2;
+    public static void sort(int[] data,int left,int right){
+        if(left >= right){
+            return ;
+        }
 
-        if(s == t){
-            tr1[s] = sr[s];
+        int center = (left + right)/2;
+        sort(data,left,center);
+        sort(data,center+1,right);
+        merge(data,left,center,right);
+
+    }
+
+    private static void merge(int[] data, int left, int center, int right) {
+        int[] tmpArr = new int[data.length];
+        int mid = center +1;
+        int third = left;
+
+        while(left <= center && mid <= right){
+            if(data[left] <= data[mid]){
+                tmpArr[third++] = data[left++];
+            }else {
+                tmpArr[third++] = data[mid++];
+            }
+        }
+
+        while(mid <= right){
+
+        }
+    }
+
+    public static void mergeSort(int[] arrays){
+        int[] tr = new int[arrays.length];
+        int k = 0;
+        while(k < arrays.length-1){
+            mergePass(arrays,tr,k,arrays.length-1);
+            k = 2*(k+1);
+            mergePass(tr,arrays,k,arrays.length-1);
+            k = 2*(k+1);
+        }
+    }
+
+    private static void mergePass(int[] tr, int[] arrays, int s, int n) {
+        int i = 1;
+        int j;
+
+        while(i < n-2*s+1){
+            Merge(tr,arrays,i,i+s-1,i+2*s-1);
+            i = i+2*s;
+        }
+
+        if(i < n-s+1){
+            Merge(tr,arrays,i,i+s-1,n);
         }else{
-            m = (s+t) / 2;
-            tr2 = new int[sr.length];
-            mergeSort(sr,tr2,s,m);
-            mergeSort(sr,tr2,m+1,t);
-            Merge(tr2,tr1,s,m,t);
-
-        }
-    }
-
-    private static void Merge(int[] sr, int[] tr, int i, int m, int n) {
-        int j,k,l;
-        for(j=m+1,k=i;i<=m && j<=n;k++){
-            if(sr[i]<sr[j]){
-                tr[k] = sr[i++];
-            }else{
-                tr[k] = sr[j++];
-            }
-        }
-
-        if(i<=m){
-            for(l = 0;l<m-i;l++){
-                tr[k+l] = sr[i+l];
-            }
-        }
-
-        if(j <= n){
-            for(l = 0;l<n-j;l++){
-                tr[k+l] = sr[j+l];
-            }
-        }
-
-        if(m == sm){
-            for (Integer integer : tr){
-                System.out.print(integer+",");
+            for(j = i;j<=n;j++){
+                arrays[j] = tr[j];
             }
         }
     }
