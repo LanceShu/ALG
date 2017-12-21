@@ -22,6 +22,7 @@ public class 快速排序 {
 //            quickSort(arrys,pivot+1,end);
             start = pivot + 1;
         }
+
     }
 
     private static int sort(int[] arrys, int start, int end) {

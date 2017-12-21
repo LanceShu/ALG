@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d572368-d45a-4c43-b185-0d01dc6a136d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ALG/快速排序.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ALG/归并排序.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ALG/快速排序.java" afterPath="$PROJECT_DIR$/src/ALG/快速排序.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -98,11 +99,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="快速排序.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="快速排序.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ALG/快速排序.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="9" column="33" lean-forward="false" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+            <state relative-caret-position="525">
+              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="归并排序.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ALG/归并排序.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="23" column="28" lean-forward="false" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -137,6 +148,7 @@
         <option value="$PROJECT_DIR$/src/ALG/斐波那契数列.java" />
         <option value="$PROJECT_DIR$/src/ALG/求整数的二进制的1个数.java" />
         <option value="$PROJECT_DIR$/src/ALG/快速排序.java" />
+        <option value="$PROJECT_DIR$/src/ALG/归并排序.java" />
       </list>
     </option>
   </component>
@@ -215,7 +227,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.快速排序">
+  <component name="RunManager" selected="Application.归并排序">
     <configuration name="快速排序" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -311,14 +323,14 @@
       <module name="ALG" />
       <envs />
     </configuration>
-    <configuration name="两栈实现队列" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="归并排序" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="ALG.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="ALG.两栈实现队列" />
+      <option name="MAIN_CLASS_NAME" value="ALG.归并排序" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -449,19 +461,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.两栈实现队列" />
-      <item index="1" class="java.lang.String" itemvalue="Application.旋转数组的最小数字" />
-      <item index="2" class="java.lang.String" itemvalue="Application.斐波那契数列" />
-      <item index="3" class="java.lang.String" itemvalue="Application.求整数的二进制的1个数" />
-      <item index="4" class="java.lang.String" itemvalue="Application.快速排序" />
+      <item index="0" class="java.lang.String" itemvalue="Application.旋转数组的最小数字" />
+      <item index="1" class="java.lang.String" itemvalue="Application.斐波那契数列" />
+      <item index="2" class="java.lang.String" itemvalue="Application.求整数的二进制的1个数" />
+      <item index="3" class="java.lang.String" itemvalue="Application.快速排序" />
+      <item index="4" class="java.lang.String" itemvalue="Application.归并排序" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.快速排序" />
-        <item index="1" class="java.lang.String" itemvalue="Application.求整数的二进制的1个数" />
-        <item index="2" class="java.lang.String" itemvalue="Application.斐波那契数列" />
-        <item index="3" class="java.lang.String" itemvalue="Application.旋转数组的最小数字" />
-        <item index="4" class="java.lang.String" itemvalue="Application.两栈实现队列" />
+        <item index="0" class="java.lang.String" itemvalue="Application.归并排序" />
+        <item index="1" class="java.lang.String" itemvalue="Application.快速排序" />
+        <item index="2" class="java.lang.String" itemvalue="Application.求整数的二进制的1个数" />
+        <item index="3" class="java.lang.String" itemvalue="Application.斐波那契数列" />
+        <item index="4" class="java.lang.String" itemvalue="Application.旋转数组的最小数字" />
       </list>
     </recent_temporary>
   </component>
@@ -476,7 +488,7 @@
       <option name="presentableId" value="Default" />
       <updated>1513569139241</updated>
       <workItem from="1513569140839" duration="12811000" />
-      <workItem from="1513689953315" duration="10516000" />
+      <workItem from="1513689953315" duration="16207000" />
     </task>
     <task id="LOCAL-00001" summary="update code">
       <created>1513696923322</created>
@@ -499,14 +511,22 @@
       <option name="project" value="LOCAL" />
       <updated>1513699463332</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update ALG">
+      <created>1513784951404</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1513784951405</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23327000" />
+    <option name="totallyTimeSpent" value="29018000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -517,7 +537,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23503809" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.257889" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -528,7 +548,7 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39825898" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5212187" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -545,11 +565,12 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update code" />
-    <option name="LAST_COMMIT_MESSAGE" value="update code" />
+    <MESSAGE value="update ALG" />
+    <option name="LAST_COMMIT_MESSAGE" value="update ALG" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="8" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -655,8 +676,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ALG/快速排序.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="9" column="33" lean-forward="false" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+        <state relative-caret-position="525">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ALG/归并排序.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="23" column="28" lean-forward="false" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
           <folding />
         </state>
       </provider>
