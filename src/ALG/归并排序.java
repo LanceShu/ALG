@@ -8,9 +8,10 @@ public class 归并排序 {
     public static void main(String[] args) {
 
         int[] arrats = new int[]{50,10,90,30,70,40,80};
-        System.out.println(arrats);
-
-
+        sort(arrats,0,arrats.length-1);
+        for(Integer integer : arrats){
+            System.out.print(integer + " ");
+        }
 
     }
 
@@ -31,6 +32,8 @@ public class 归并排序 {
         int mid = center +1;
         int third = left;
 
+        int tmp = left;
+
         while(left <= center && mid <= right){
             if(data[left] <= data[mid]){
                 tmpArr[third++] = data[left++];
@@ -40,38 +43,18 @@ public class 归并排序 {
         }
 
         while(mid <= right){
+            tmpArr[third++] = data[mid++];
+        }
 
+        while(left <= center){
+            tmpArr[third++] = data[left++];
+        }
+
+        while(tmp <= right){
+            data[tmp] = tmpArr[tmp++];
         }
     }
 
-    public static void mergeSort(int[] arrays){
-        int[] tr = new int[arrays.length];
-        int k = 0;
-        while(k < arrays.length-1){
-            mergePass(arrays,tr,k,arrays.length-1);
-            k = 2*(k+1);
-            mergePass(tr,arrays,k,arrays.length-1);
-            k = 2*(k+1);
-        }
-    }
-
-    private static void mergePass(int[] tr, int[] arrays, int s, int n) {
-        int i = 1;
-        int j;
-
-        while(i < n-2*s+1){
-            Merge(tr,arrays,i,i+s-1,i+2*s-1);
-            i = i+2*s;
-        }
-
-        if(i < n-s+1){
-            Merge(tr,arrays,i,i+s-1,n);
-        }else{
-            for(j = i;j<=n;j++){
-                arrays[j] = tr[j];
-            }
-        }
-    }
 
 
 }
