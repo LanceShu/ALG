@@ -19,7 +19,6 @@ public class 快速排序 {
         while (start<end){
             pivot = sort(arrys,start,end);
             quickSort(arrys,start,pivot-1);
-//            quickSort(arrys,pivot+1,end);
             start = pivot + 1;
         }
 
