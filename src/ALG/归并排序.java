@@ -16,6 +16,7 @@ public class 归并排序 {
     }
 
     public static void sort(int[] data,int left,int right){
+
         if(left >= right){
             return ;
         }
