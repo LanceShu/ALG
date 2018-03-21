@@ -2,9 +2,6 @@ package ALG;
 
 public class 归并排序 {
 
-    private static int length ;
-    private static int sm;
-
     public static void main(String[] args) {
 
         int[] arrats = new int[]{50,10,90,30,70,40,80};
