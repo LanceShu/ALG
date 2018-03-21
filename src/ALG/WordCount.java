@@ -49,20 +49,20 @@ public class WordCount {
             words.add(new Word(s, map.get(s)));
         }
 
-        for (int i = 0; i < words.size() - 1; i++) {
+        for (int i = 0; i < words.size(); i++) {
             Word word = new Word();
-            for (int j = i + 1; j < words.size(); j++) {
-                if(words.get(i).count > words.get(j).count) {
-                    word = words.get(i);
-                    words.set(i, words.get(j));
-                    words.set(j, word);
+            for (int j = 0; j < words.size() - 1 - i; j++) {
+                if(words.get(j).count > words.get(j+1).count) {
+                    word = words.get(j);
+                    words.set(j, words.get(j+1));
+                    words.set(j+1, word);
                 }
 
-                if (words.get(i).count == words.get(j).count) {
-                    if (words.get(i).word.compareToIgnoreCase(words.get(j).word) < 0) {
-                        word = words.get(i);
-                        words.set(i, words.get(j));
-                        words.set(j, word);
+                if (words.get(j).count == words.get(j+1).count) {
+                    if (words.get(j).word.compareToIgnoreCase(words.get(j+1).word) < 0) {
+                        word = words.get(j);
+                        words.set(j, words.get(j+1));
+                        words.set(j+1, word);
                     }
                 }
             }
