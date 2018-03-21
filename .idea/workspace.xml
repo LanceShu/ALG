@@ -18,8 +18,8 @@
       <file leaf-file-name="WordCount.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ALG/WordCount.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-700">
-              <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+            <state relative-caret-position="275">
+              <caret line="59" column="17" lean-forward="true" selection-start-line="59" selection-start-column="17" selection-end-line="59" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -579,7 +579,7 @@
       <workItem from="1521440374740" duration="2224000" />
       <workItem from="1521518285517" duration="2639000" />
       <workItem from="1521610597824" duration="9486000" />
-      <workItem from="1521640590618" duration="467000" />
+      <workItem from="1521640590618" duration="738000" />
     </task>
     <task id="LOCAL-00001" summary="update code">
       <created>1513696923322</created>
@@ -735,11 +735,18 @@
       <option name="project" value="LOCAL" />
       <updated>1521639358401</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="update ALG">
+      <created>1521641067922</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1521641067922</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73654000" />
+    <option name="totallyTimeSpent" value="73925000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1148,8 +1155,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ALG/WordCount.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-700">
-          <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        <state relative-caret-position="275">
+          <caret line="59" column="17" lean-forward="true" selection-start-line="59" selection-start-column="17" selection-end-line="59" selection-end-column="17" />
           <folding />
         </state>
       </provider>

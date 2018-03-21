@@ -50,20 +50,13 @@ public class WordCount {
         }
 
         for (int i = 0; i < words.size(); i++) {
-            Word word = new Word();
+            Word word;
             for (int j = 0; j < words.size() - 1 - i; j++) {
-                if(words.get(j).count > words.get(j+1).count) {
+                if((words.get(j).count > words.get(j+1).count)
+                        || ((words.get(j).count == words.get(j+1).count)&&(words.get(j).word.compareToIgnoreCase(words.get(j+1).word) < 0))) {
                     word = words.get(j);
                     words.set(j, words.get(j+1));
                     words.set(j+1, word);
-                }
-
-                if (words.get(j).count == words.get(j+1).count) {
-                    if (words.get(j).word.compareToIgnoreCase(words.get(j+1).word) < 0) {
-                        word = words.get(j);
-                        words.set(j, words.get(j+1));
-                        words.set(j+1, word);
-                    }
                 }
             }
         }
