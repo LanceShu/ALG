@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d572368-d45a-4c43-b185-0d01dc6a136d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ALG/包机商卖机票.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ALG/构造回文.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ALG/猴子吃桃.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ALG/替换空格.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -27,11 +25,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="包机商卖机票.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="包机商卖机票.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ALG/包机商卖机票.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="383">
               <caret line="44" column="5" lean-forward="false" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="替换空格.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ALG/替换空格.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="344">
+              <caret line="40" column="20" lean-forward="false" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -106,6 +114,7 @@
         <option value="$PROJECT_DIR$/src/ALG/猴子吃桃.java" />
         <option value="$PROJECT_DIR$/src/ALG/aaa.java" />
         <option value="$PROJECT_DIR$/src/ALG/包机商卖机票.java" />
+        <option value="$PROJECT_DIR$/src/ALG/替换空格.java" />
       </list>
     </option>
   </component>
@@ -184,7 +193,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.包机商卖机票">
+  <component name="RunManager" selected="Application.替换空格">
     <configuration name="数字字符" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -508,14 +517,14 @@
       <module name="ALG" />
       <envs />
     </configuration>
-    <configuration name="ReentrantLockTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="替换空格" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="ALG.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="ALG.ReentrantLockTest" />
+      <option name="MAIN_CLASS_NAME" value="ALG.替换空格" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -646,19 +655,19 @@
       <envs />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.ReentrantLockTest" />
-      <item index="1" class="java.lang.String" itemvalue="Application.WordCount" />
-      <item index="2" class="java.lang.String" itemvalue="Application.数字字符" />
-      <item index="3" class="java.lang.String" itemvalue="Application.aaa" />
-      <item index="4" class="java.lang.String" itemvalue="Application.包机商卖机票" />
+      <item index="0" class="java.lang.String" itemvalue="Application.WordCount" />
+      <item index="1" class="java.lang.String" itemvalue="Application.数字字符" />
+      <item index="2" class="java.lang.String" itemvalue="Application.aaa" />
+      <item index="3" class="java.lang.String" itemvalue="Application.包机商卖机票" />
+      <item index="4" class="java.lang.String" itemvalue="Application.替换空格" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.包机商卖机票" />
-        <item index="1" class="java.lang.String" itemvalue="Application.aaa" />
-        <item index="2" class="java.lang.String" itemvalue="Application.数字字符" />
-        <item index="3" class="java.lang.String" itemvalue="Application.WordCount" />
-        <item index="4" class="java.lang.String" itemvalue="Application.ReentrantLockTest" />
+        <item index="0" class="java.lang.String" itemvalue="Application.替换空格" />
+        <item index="1" class="java.lang.String" itemvalue="Application.包机商卖机票" />
+        <item index="2" class="java.lang.String" itemvalue="Application.aaa" />
+        <item index="3" class="java.lang.String" itemvalue="Application.数字字符" />
+        <item index="4" class="java.lang.String" itemvalue="Application.WordCount" />
       </list>
     </recent_temporary>
   </component>
@@ -693,7 +702,7 @@
       <workItem from="1522159899844" duration="493000" />
       <workItem from="1522162342187" duration="1462000" />
       <workItem from="1522207779766" duration="4274000" />
-      <workItem from="1522584207697" duration="5432000" />
+      <workItem from="1522584207697" duration="7571000" />
     </task>
     <task id="LOCAL-00001" summary="update code">
       <created>1513696923322</created>
@@ -891,26 +900,32 @@
       <option name="project" value="LOCAL" />
       <updated>1522158233263</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="update ALG">
+      <created>1522680342281</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1522680342281</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109635000" />
+    <option name="totallyTimeSpent" value="111774000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32752994" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3261944" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20428336" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20428336" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20348205" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -948,13 +963,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ALG/奇偶交换.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="34" lean-forward="true" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ALG/字符串替换.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1000">
@@ -1321,6 +1329,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="383">
           <caret line="44" column="5" lean-forward="false" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ALG/替换空格.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="40" column="20" lean-forward="false" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
           <folding />
         </state>
       </provider>
