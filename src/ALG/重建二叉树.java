@@ -14,7 +14,7 @@ public class 重建二叉树 {
         BinaryTreeNode right;
     }
 
-    public static BinaryTreeNode construct(int[] preorder
+    private static BinaryTreeNode construct(int[] preorder
             ,int[] inorder){
         if(preorder == null || inorder == null || preorder.length != inorder.length
                 || inorder.length < 1){
@@ -24,7 +24,7 @@ public class 重建二叉树 {
         return construct(preorder,0,preorder.length-1,inorder,0,inorder.length-1);
     }
 
-    public static BinaryTreeNode construct(int[] preorder,int ps,int pe
+    private static BinaryTreeNode construct(int[] preorder,int ps,int pe
             ,int[] inorder,int is,int ie){
 
         if(ps > pe){
