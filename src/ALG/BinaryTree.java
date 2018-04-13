@@ -1,5 +1,7 @@
 package ALG;
 
+import java.util.concurrent.ArrayBlockingQueue;
+
 public class BinaryTree {
 
     static Tree root;
@@ -22,7 +24,25 @@ public class BinaryTree {
         }
 //        preOrder(root);
 //        endOrder(root);
-        inOrder(root);
+//        inOrder(root);
+        levelSort(root, a.length);
+    }
+
+    private static void levelSort(Tree root, int length) {
+        if (root == null)
+            return;
+        ArrayBlockingQueue<Tree> trees = new ArrayBlockingQueue<>(length);
+        trees.offer(root);
+        while (!trees.isEmpty()) {
+            Tree tree = trees.poll();
+            System.out.print(tree.data + " ");
+            if (tree.leftTree != null) {
+                trees.offer(tree.leftTree);
+            }
+            if (tree.rightTree != null) {
+                trees.offer(tree.rightTree);
+            }
+        }
     }
 
     private static void preOrder (Tree tree) {
