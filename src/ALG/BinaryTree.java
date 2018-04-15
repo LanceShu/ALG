@@ -4,7 +4,7 @@ import java.util.concurrent.ArrayBlockingQueue;
 
 public class BinaryTree {
 
-    static Tree root;
+    private static Tree root;
 
     private static class Tree {
         int data;
@@ -15,6 +15,7 @@ public class BinaryTree {
             this.leftTree = null;
             this.rightTree = null;
         }
+        Tree(){}
     }
 
     public static void main(String[] args) {
